@@ -1,9 +1,9 @@
 <?php
 // variaveis de acesso ao banco
-$host=*******;
+$host="localhost";
 $user=****;
 $password=*****;
-$database=**********;
+$database="ambulatorio";
 
 // conexao com o banco
 $conexao = mysqli_connect($host, $user, $password, $database);
